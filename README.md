@@ -24,10 +24,10 @@ Add the proper entry to your configuration.yaml file. Several example configurat
 ```
 switch:
   - platform: mitsubishi_projector
-    filename: /dev/ttyUSB0                      # Required (device). The pipe where the projector is connected to.
-    name: "Mitsubishi HC6000 LCD Projector"     # Optional (string). The displayed name of the switch.
-    timeout: 1                                  # Optional (integer). Time to wait for serial read in seconds
-    write_timeout: 1
+    filename: /dev/ttyUSB0         
+    name: "Mitsubishi HC6000 LCD Projector"   # Default
+    timeout: 1                                # Default
+    write_timeout: 1                          # Default
 
 ```
 

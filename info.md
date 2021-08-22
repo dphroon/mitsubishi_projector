@@ -32,13 +32,13 @@ switch:
 ```
 
 * filename (string) **Required**
-** _The pipe where the projector is connected to. Use dev-by-id to prevent USB changes affecting this._
+_The pipe where the projector is connected to. Use dev-by-id to prevent USB changes affecting this._
 * name (string) (Optional)
-** _The name to use when displaying this switch._
+_The name to use when displaying this switch._
 * timeout (integer) (Optional)
-** _Timeout for the connection in seconds._
+_Timeout for the connection in seconds._
 * write_timeout (integer) (Optional)
-** _Write timeout in seconds._
+_Write timeout in seconds._
 
 
 

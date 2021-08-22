@@ -1,12 +1,12 @@
-###Configuration
+#Configuration
 
 ##To use your Mitsubishi Projector in your installation, add the following to your configuration.yaml file:
 
-# Example configuration.yaml entry
-mitsubishi_projector:
-  filename: /dev/ttyUSB0
+switch:
+  - mitsubishi_projector
+    filename: /dev/ttyUSB0
 
-YAML Configuration Variables
+###YAML Configuration Variables
 
 filename (string) **Required**
 _The pipe where the projector is connected to. Use dev-by-id to prevent USB changes._

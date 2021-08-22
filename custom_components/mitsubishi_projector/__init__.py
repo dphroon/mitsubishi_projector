@@ -1,1 +1,1 @@
-
+"""The mitsubishi_projector component."""

@@ -1,5 +1,5 @@
 {
-  "domain": "acer_projector",
+  "domain": "mitsubishi_projector",
   "name": "Mitsubishi HC6000 LCD Projector",
   "documentation": "https://github.com/dphroon/mitsubishi_projector",
   "requirements": ["pyserial==3.5"],

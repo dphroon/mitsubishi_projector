@@ -14,7 +14,6 @@ DEFAULT_WRITE_TIMEOUT: Final = 1
 LAMP_MODE: Final = "Lamp Mode"
 
 ICON: Final = "mdi:projector"
-SOURCE_ICON: Final = "mdi:video-input-hdmi"
 
 INPUT_SOURCE: Final = "Input Source"
 
@@ -23,12 +22,6 @@ POWER_AVAIL: Final = "Power Switching"
 
 LAMP: Final = "Lamp"
 LAMP_HOURS: Final = "Lamp Hours"
-INPUT_HDMI1: Final = "HDMI 1"
-INPUT_HDMI2: Final = "HDMI 2"
-INPUT_PC: Final = "Computer"
-INPUT_COMP: Final = "Component"
-INPUT_VIDEO: Final = "Video"
-INPUT_SVIDEO: Final = "S-Video"
     
 MODEL: Final = "Model"
 
@@ -42,11 +35,5 @@ CMD_DICT: Final[dict[str, str]] = {
     LAMP_MODE: "00LM\r",
     MODEL: "00LM\r",
     STATE_ON: "00!\r",
-    STATE_OFF: "00\"\r",
-    INPUT_HDMI1: "00_d1\r",
-    INPUT_HDMI2: "00_d2\r",
-    INPUT_PC: "00_r1\r",
-    INPUT_COMP: "00_c1\r",
-    INPUT_VIDEO: "00_v1\r",
-    INPUT_SVIDEO:"00_v2\r" 
+    STATE_OFF: "00\"\r"
 }

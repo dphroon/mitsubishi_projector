@@ -1,4 +1,4 @@
-"""Use serial protocol of Acer projector to obtain state of the projector."""
+"""Use serial protocol of Mitsubishi projector to obtain state of the projector."""
 from __future__ import annotations
 
 from typing import Final

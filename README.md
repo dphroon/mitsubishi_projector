@@ -1,5 +1,7 @@
 # A Home Assistant custom Integration for serial control of Mitsubishi HC6000 LCD Projectors.
 
+Based on Acer Projector core integration.
+
 The following device infromation is polled:
 * Power state (ON/OFF)
 * Lamp use in hours and minutes. This is calculated in Low mode

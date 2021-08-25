@@ -33,6 +33,7 @@ from .const import (
     DEFAULT_WRITE_TIMEOUT,
     LAMP_MODE,
     ICON,
+    SOURCE_ICON,
     INPUT_SOURCE,
     LAMP,
     LAMP_HOURS,
